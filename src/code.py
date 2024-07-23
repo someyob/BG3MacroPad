@@ -21,9 +21,7 @@ keyboard.row_pins = (board.GP9, board.GP8, board.GP7, board.GP6, board.GP27)
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
 encoder_handler.pins = (
-    # regular direction encoder and a button
     (board.GP17, board.GP16, None), # encoder #1 
-    # reversed direction encoder with no button handling and divisor of 2
     (board.GP19, board.GP18, None), # encoder #2
     )
 
